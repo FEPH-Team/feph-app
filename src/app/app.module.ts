@@ -10,6 +10,8 @@ import { HomeComponent } from './home/home.component';
 // import { TransactionComponent } from './Transaction/Transaction.component'
 
 import { SampleAssetComponent } from './SampleAsset/SampleAsset.component';
+import { AdminComponentComponent } from './admin-component/admin-component.component';
+import { VotingComponentComponent } from './voting-component/voting-component.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { SampleAssetComponent } from './SampleAsset/SampleAsset.component';
 		HomeComponent,
     // TransactionComponent,
     
-    SampleAssetComponent
+    SampleAssetComponent,
+    AdminComponentComponent,
+    VotingComponentComponent
 		
   ],
   imports: [
