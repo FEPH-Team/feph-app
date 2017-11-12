@@ -62,21 +62,21 @@
                 <!--Site must get text and go to the finger print-->
                 <form action="#">
                   <label class="radio-inline">
-                    <input type="radio" name="optradio">Option 1
+                    <input type="radio" name="optradio" class="senatorial_candidates">Option 1
                   </label>
                   <br/>
-                  <label class="radio-inline">
-                    <input type="radio" name="optradio">Option 1
+                  <label class="radio-inline" >
+                    <input type="radio" name="optradio" class="senatorial_candidates">Option 1
                   </label>
                   <br/>
-                  <div class="alert alert-danger">
+                  <div class="alert alert-danger" id="senator_candidate_warning">
                     <strong>Warning!!</strong> Please pick an option.
                   </div>  
                 </form>
               </div>
 
               <div id="sub" class="tab-pane fade">
-                  <button id="myButton" type="submit" class="submit-button btn btn-success">SUBMIT</button>
+                  <button id="myButton" type="submit" class="submit-button btn btn-success submit_vote">SUBMIT</button>
                   <script type="text/javascript">
                     document.getElementById("myButton").onclick = function () {
                       location.href = "vote_review.html";
