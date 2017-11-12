@@ -9,6 +9,7 @@ import { VotingComponentComponent } from './voting-component/voting-component.co
 import { AddVotingComponent } from './add-voting/add-voting.component';
 import { AddCandidateComponent } from './add-candidate/add-candidate.component';
 import { AddPrecinctComponent } from './add-precinct/add-precinct.component';
+import { StatisticsComponent } from './statistics/statistics.component';
 
 const routes: Routes = [
     // { path: 'transaction', component: TransactionComponent },
@@ -19,7 +20,7 @@ const routes: Routes = [
 	{path: 'add_voting', component: AddVotingComponent},
 	{path: 'add_candidate', component: AddCandidateComponent},
 	{path: 'add_precinct', component: AddPrecinctComponent},
-
+	{path: 'statistics', component: StatisticsComponent},
 	{path: '**', redirectTo:''}
 
 ];
