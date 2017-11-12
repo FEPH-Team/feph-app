@@ -15,6 +15,7 @@ import { VotingComponentComponent } from './voting-component/voting-component.co
 import { AddVotingComponent } from './add-voting/add-voting.component';
 import { AddCandidateComponent } from './add-candidate/add-candidate.component';
 import { AddPrecinctComponent } from './add-precinct/add-precinct.component';
+import { StatisticsComponent } from './statistics/statistics.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { AddPrecinctComponent } from './add-precinct/add-precinct.component';
     VotingComponentComponent,
     AddVotingComponent,
     AddCandidateComponent,
-    AddPrecinctComponent
+    AddPrecinctComponent,
+    StatisticsComponent
 		
   ],
   imports: [
